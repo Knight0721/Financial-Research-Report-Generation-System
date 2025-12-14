@@ -13,7 +13,8 @@ import reactor.core.publisher.Flux;
         streamingChatModel = "openAiStreamingChatModel",
         //chatMemory="chatMemory"
         chatMemoryProvider = "chatMemoryProvider",
-        contentRetriever = "contentRetriever"
+        contentRetriever = "contentRetriever",
+        tools = "financialTools"
 )
 public interface ConsultantService {
     @SystemMessage("你是南京信息工程大学的AI金融证券分析师")
@@ -36,5 +37,5 @@ public interface ConsultantService {
     【后续段落要求】
     (保持你原本的要求不变...)
     """)
-    public Flux<String> generateReport(@MemoryId String memoryId, @UserMessage String stockName);
+    Flux<String> generateReport(@UserMessage String stockName);
 }
