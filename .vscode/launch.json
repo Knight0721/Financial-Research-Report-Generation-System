@@ -9,20 +9,29 @@
             "name": "ConsultantApplication",
             "request": "launch",
             "mainClass": "com.itheima.consultant.ConsultantApplication",
-            "projectName": "consultant"
+            "projectName": "consultant",
+            "env": {
+                "ALIYUN_API_KEY": "sk-f4829b30054b4468acf649d0a8e8af03"
+            }
         },
         {
             "type": "java",
             "name": "Current File",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "${file}",
+            "env": {
+                "ALIYUN_API_KEY": "sk-f4829b30054b4468acf649d0a8e8af03"
+            }
         },
         {
             "type": "java",
-            "name": "ConsultantApplication",
+            "name": "ConsultantApplication (Financial System)",
             "request": "launch",
             "mainClass": "com.itheima.consultant.ConsultantApplication",
-            "projectName": "financial-research-report-generation-system"
+            "projectName": "financial-research-report-generation-system",
+            "env": {
+                "ALIYUN_API_KEY": "sk-f4829b30054b4468acf649d0a8e8af03"
+            }
         }
     ]
 }
