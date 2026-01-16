@@ -45,3 +45,7 @@ financial:
   alpha-vantage:
     api-key: OZZPYYWT8IU8UQ4M  <-- 把你的Key填在这里
     base-url: https://www.alphavantage.co/query
+
+  tushare:
+    api-key: "d1f13bdc37694058aef9a57628679bf3372a30a4d0e2b5d072c2c195"
+    base-url: "http://api.tushare.pro"

@@ -39,5 +39,4 @@ public class ChatController {
         System.out.println(">>> 普通聊天模式");
         return consultantService.chat(memoryId, message);
     }
-
 }
