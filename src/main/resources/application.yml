@@ -47,5 +47,5 @@ financial:
     base-url: https://www.alphavantage.co/query
 
   tushare:
-    api-key: "d1f13bdc37694058aef9a57628679bf3372a30a4d0e2b5d072c2c195"
+    api-key: "3c2eb4602e20715251ecfe45d1eb0c98872394542c79f334e23623d8"
     base-url: "http://api.tushare.pro"
