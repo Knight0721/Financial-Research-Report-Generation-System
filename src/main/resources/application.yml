@@ -42,16 +42,12 @@ spring:
 
 # 第三方金融数据接口配置
 financial:
-  proxy:
-    enabled: false
-    host: jiaoch.site
-    port: 443
   alpha-vantage:
     api-key: OZZPYYWT8IU8UQ4M  <-- 把你的Key填在这里
     base-url: https://www.alphavantage.co/query
-
   tushare:
-    api-key: "8a38fa38e3966167986608ac01ded95d49ca9d3578f9942c09fc4762a90c"
-    base-url: "https://jiaoch.site"
+    # 官方 TuShare 地址（用于声明与兜底）
+    api-key: 3c2eb4602e20715251ecfe45d1eb0c98872394542c79f334e23623d8
+    base-url: https://api.tushare.pro
 
 
