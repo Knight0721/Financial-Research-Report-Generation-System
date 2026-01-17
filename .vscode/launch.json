@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TushareConnectTest",
+            "request": "launch",
+            "mainClass": "com.itheima.consultant.TushareConnectTest",
+            "projectName": "consultant"
+        },
+        {
+            "type": "java",
             "name": "ConsultantApplication",
             "request": "launch",
             "mainClass": "com.itheima.consultant.ConsultantApplication",
